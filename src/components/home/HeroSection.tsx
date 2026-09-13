@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
-import { ArrowRight, ChevronLeft, ChevronRight, Zap, Play, Pause, Activity, Sparkles } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight, Zap, Play, Pause, Activity } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   const { t, isRTL } = useLanguage();
